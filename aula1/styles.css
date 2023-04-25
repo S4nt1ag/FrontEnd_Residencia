@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    
+}
+
+h1 {
+    color: blue;
+    
+}
+h2 {
+    color: red;
+}
+
+body footer {
+    color: blue;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+
+}
