@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
 body {
     background-color: black;
@@ -5,15 +6,19 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    margin: 10px;
+    margin: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Nanum Myeongjo', serif;
 }
+
 .container-header {
     display: flex;
     height: 25px;
     flex-flow: column wrap;
     align-content: space-between;
     margin: 10px;
-    
+
 }
 
 .perfil img {
@@ -21,6 +26,7 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 .titulo h1 {
@@ -56,20 +62,13 @@ h1 {
 
 }
 
-.formacao {
-    margin-left: 20px;
 
-}
 
 .formacao h3 {
     color: #552383;
     font-size: 50px;
 }
 
-.experiencia {
-    margin-right: 240px;
-    
-}
 
 .experiencia h4 {
     color: #552383;
@@ -89,4 +88,3 @@ h1 {
     align-content: space-between;
 
 }
-
