@@ -4,20 +4,18 @@ body {
     text-decoration: none;
 }
 
-#lady {
-    margin-left: 980px;
-}
 
 .perfil img {
     width: 400px;
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.titulo {
-    text-align: center;
-    margin: 0;
+.titulo h1 {
+    text-align: right;
+    margin-right: 80px;
 
 }
 
@@ -37,20 +35,37 @@ h1 {
 
 }
 
-tbody h3 {
-    color: #552383;
-    font-size: 40px;
+.flex-container {
+    display: flex;
+    height: 400px;
+    flex-flow: column wrap;
+    align-content: space-between;
 }
 
-tbody h4 {
+.flex-container>div {
+    width: 400px;
+    margin: 10px;
+
+}
+
+.formacao {
+    margin-left: 20px;
+
+}
+
+.formacao h3 {
     color: #552383;
-    font-size: 40px;
+    font-size: 50px;
 }
-.barra {
-    padding-left: 300px;
-}
+
 .experiencia {
-    margin-left: 200px;
-    text-align: left;
-    padding-left: 200px;
+    margin-right: 240px;
+    
+}
+
+.experiencia h4 {
+    color: #552383;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
