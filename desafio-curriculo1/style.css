@@ -5,6 +5,11 @@ body {
     color: #FFF;
    align-content: center;
     font-family: 'Nanum Myeongjo', serif;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0px;
 }
 
 .container-body {
