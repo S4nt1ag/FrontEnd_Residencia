@@ -3,13 +3,19 @@
 body {
     background-color: black;
     color: #FFF;
+   align-content: center;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.container-body {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+    justify-content: center;
     margin: 200px;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Nanum Myeongjo', serif;
+
 }
 
 .container-header {
@@ -99,5 +105,5 @@ h1 {
     height: 25px;
     flex-flow: column wrap;
     align-content: space-between;
-
+    
 }
