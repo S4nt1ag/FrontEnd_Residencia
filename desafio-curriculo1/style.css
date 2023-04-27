@@ -33,7 +33,7 @@ body {
 }
 .inicio {
     display: flex;
-    height: 600px;
+    height: auto;
     flex-flow: column wrap;
     align-content: space-between;
 }
@@ -125,6 +125,14 @@ h1 {
         flex-flow: column wrap;
         align-content: space-between;
     }
+    .container-header {
+        display: flex;
+        height: auto;
+        flex-flow: column wrap;
+        align-content: space-between;
+        margin: 0px;
+    
+    }
     .flex-container>div {
         width: auto;
         margin: 10px;
@@ -145,4 +153,16 @@ h1 {
         align-content: space-between;
     }
     
+}
+
+@media (min-width: 1400px) {
+    .inicio {
+        display: flex;
+        height: auto;
+        flex-flow: column wrap;
+        align-content: space-between;
+    }
+    .titulo {
+        width: 1000px;
+    }
 }
