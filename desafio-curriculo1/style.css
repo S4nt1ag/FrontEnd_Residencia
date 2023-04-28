@@ -72,9 +72,9 @@ body {
     align-items: center;
     margin-top: 10px;
     gap: 10px;
-  }
-  
-  .btn {
+}
+
+.btn {
     background-color: #552383;
     border: none;
     color: white;
@@ -85,9 +85,9 @@ body {
     border-radius: 20px;
     width: 50px;
     height: 16px;
-  }
-  
- 
+}
+
+
 
 .container-body {
     display: flex;
