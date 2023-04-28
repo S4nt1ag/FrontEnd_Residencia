@@ -87,8 +87,6 @@ body {
     height: 16px;
 }
 
-
-
 .container-body {
     display: flex;
     flex-flow: column wrap;
@@ -144,6 +142,7 @@ body {
 
 .titulo p {
     text-align: right;
+
 }
 
 a {
@@ -183,6 +182,11 @@ h1 {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.experiencia p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .conteiner-contato img {
