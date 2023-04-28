@@ -2,6 +2,7 @@ const botao = document.getElementById('switch-shadow');
 const h1 = document.querySelector('h1');
 const h3 = document.querySelector('h3');
 const h4 = document.querySelector('h4');
+const footerLinks = document.querySelectorAll('footer a');
 const imagem = document.querySelector('.imagem img');
 
 let estadoBotao = false;
@@ -14,6 +15,7 @@ botao.addEventListener('click', function () {
         h3.style.color = "#552583";
         h4.style.color = "#552583";
         imagem.src = './img/black.png';
+        footerLinks.forEach(link => link.style.color = "white");
 
 
 
@@ -24,6 +26,7 @@ botao.addEventListener('click', function () {
         h3.style.color = "#FDB927";
         h4.style.color = "#FDB927";
         imagem.src = './img/white.png';
+        footerLinks.forEach(link => link.style.color = "black");
 
     }
     estadoBotao = !estadoBotao;
