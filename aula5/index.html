@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="pageTitle">Cronômetro</h1>
+        <div class="watchcontainer">
+             <!-- HORAS -->
+            <div class="box" id="decHour"></div>
+            <div class="box" id="unHour"></div>
+
+            <div class="dotsContainer">
+                <div class="dots"></div>
+                <div class="dots"></div>
+            </div>
+
+            <!-- MINUTOS -->
+            <div class="box" id="decMinute"></div>
+            <div class="box" id="unMinute"></div>
+
+            <div class="dotsContainer">
+                <div class="dots"></div>
+                <div class="dots"></div>
+            </div>
+
+            <!-- SEGUNDOS -->
+            <div class="box" id="decSecund"></div>
+            <div class="box" id="unSecund"></div>
+
+        </div>
+        <input type="Number" id="secondsImput">
+        <button id="startBtn">Iniciar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

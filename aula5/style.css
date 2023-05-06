@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #b8a9a9;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pageTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+
+.watchContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    background-color: #FFF;
+    height: 150px;
+    width: 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    border:  1px solid black;
+}
